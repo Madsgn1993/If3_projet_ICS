@@ -37,25 +37,12 @@
     font-family: "Playfair Display";
     margin-top: 35px;
   }
-
-  .logo {
-    display: flex;
-    position: relative;
-    z-index: 2;
-    width: 220px;
-    height: 220px;
-    background-image: url("static/mains.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 101%;
-    margin: auto;
-    border-radius: 50%;
-    border: 15px solid $thirdary_color;
-    border-color: rgba(19, 232, 242, 0.7);
-    margin-top: -100px;
-    background-color: whitesmoke;
-    text-align: center;
-    box-shadow: 10px 10px 5px grey;
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .infos-container {
     display: flex;
