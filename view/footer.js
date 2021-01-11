@@ -1,9 +1,9 @@
 export const footer = `
 <div class="footer">
   <div class="presentation">
-    <p>ICS</p>
+    <p><strong>ICS</strong></p>
 
-    <p>InCorporeSano</p>
+    <p>In Corpore Sano</p>
     <div class="RS">
       <div id="fb"></div>
       <div id="ig"></div>
@@ -66,7 +66,7 @@ export const footer = `
   <div class="footer-footer">
     <a href="#">Privacy Policy</a>
     <a href="#">Plan du site</a>
-    <img id="mini-heart"src=heartLogo.png">
+    <img id="mini-heart" src="heartLogo.png">
     <a href="#">Conditions & termes </a>
     <a href="#"> Copyright 2021</a>
   </div>

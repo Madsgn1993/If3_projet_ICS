@@ -79,6 +79,9 @@ footer {
     flex-direction: column;
     font-size: medium;
     text-align: center;
+    p {
+      color: $secondary_color;
+    }
   }
   .footer-nav,
   .others {
@@ -105,7 +108,7 @@ footer {
     font-size: 9px;
   }
   .RS {
-    margin-top: 76px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     text-align: center;
