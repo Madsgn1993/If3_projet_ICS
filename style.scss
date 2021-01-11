@@ -1,9 +1,13 @@
-// @import "@fortawesome/fontawesome-free/css/all.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 // @import "node_modules/bootstrap/scss/bootstrap";
 //----------------IMPORT--------------------------
 //import le fichier _donsvivant.scss
 @import "./styles/fonts/font";
 @import "./styles/variables";
+@import "./styles/accueil";
+@import "./styles/slide";
 @import "./styles/donsvivant";
 @import "./styles/donsmort";
 @import "./styles/actualites";
@@ -11,7 +15,6 @@
 @import "./styles/nav";
 @import "./styles/footer";
 @import "./styles/contact";
-
 
 img {
   height: 300px;
@@ -31,6 +34,20 @@ body {
 
 /*# sourceMappingURL=style.css.map */
 /*------------------------------------------------------------------------*/
+h1 {
+  text-decoration: underline;
+}
+.float_left {
+  //margin: 0 30% 0 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+.float_right {
+  //margin: 0 30% 0 50%;
+  float: right;
+  margin-left: 10px;
+}
 
 #nomSite {
   margin-top: 17px;
